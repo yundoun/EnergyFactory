@@ -13,7 +13,7 @@ import Footer from './components/layout/Footer';
 import HomePage from './pages/HomePage';
 import NutritionCalculatorPage from './pages/NutritionCalculatorPage';
 // 아직 구현되지 않은 컴포넌트는 주석 처리
-// import DietCoach from './pages/DietCoach';
+import DietCoachPage from './pages/DietCoachPage';
 // import Products from './pages/Products';
 // import ProductDetail from './pages/ProductDetail';
 // import Cart from './pages/Cart';
@@ -36,8 +36,8 @@ function App() {
                     path="/nutrition-calculator"
                     element={<NutritionCalculatorPage />}
                   />
+                  <Route path="/diet-coach" element={<DietCoachPage />} />
                   {/* 
-                  <Route path="/diet-coach" element={<DietCoach />} />
                   <Route path="/products" element={<Products />} />
                   <Route path="/products/:id" element={<ProductDetail />} />
                   <Route path="/cart" element={<Cart />} />
