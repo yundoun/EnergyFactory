@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import Button from 'components/common/Button';
+import Button from '../components/common/Button';
 import {
   Card,
   CardContent,
@@ -7,18 +7,18 @@ import {
   CardTitle,
   CardDescription,
   CardFooter,
-} from 'components/common/Card';
-import Input from 'components/common/Input';
-import Label from 'components/common/Label';
-import Progress from 'components/common/Progress';
-import Select from 'components/common/Select';
-import Separator from 'components/common/Separator';
+} from '../components/common/Card';
+import Input from '../components/common/Input';
+import Label from '../components/common/Label';
+import Progress from '../components/common/Progress';
+import Select from '../components/common/Select';
+import Separator from '../components/common/Separator';
 import {
   Tabs,
   TabsContent,
   TabsList,
   TabsTrigger,
-} from 'components/common/Tabs';
+} from '../components/common/Tabs';
 import { BarChart, LineChart, PieChart } from 'lucide-react';
 
 const NutritionCalculatorPage = () => {
