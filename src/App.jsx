@@ -11,8 +11,8 @@ import Footer from './components/layout/Footer';
 
 // 페이지 컴포넌트
 import HomePage from './pages/HomePage';
+import NutritionCalculatorPage from './pages/NutritionCalculatorPage';
 // 아직 구현되지 않은 컴포넌트는 주석 처리
-// import NutritionCalculator from './pages/NutritionCalculator';
 // import DietCoach from './pages/DietCoach';
 // import Products from './pages/Products';
 // import ProductDetail from './pages/ProductDetail';
@@ -32,8 +32,11 @@ function App() {
               <main className="flex-1">
                 <Routes>
                   <Route path="/" element={<HomePage />} />
+                  <Route
+                    path="/nutrition-calculator"
+                    element={<NutritionCalculatorPage />}
+                  />
                   {/* 
-                  <Route path="/nutrition-calculator" element={<NutritionCalculator />} />
                   <Route path="/diet-coach" element={<DietCoach />} />
                   <Route path="/products" element={<Products />} />
                   <Route path="/products/:id" element={<ProductDetail />} />
